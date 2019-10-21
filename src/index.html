@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/stencil-circle-progress.esm.js"></script>
+    <script nomodule src="/build/stencil-circle-progress.js"></script>
+  </head>
+  <body>
+    <div style="display: flex; align-items: center; flex-direction: row">
+      <div style="width: 170px; height: 170px; margin: 20px;">
+        <my-circle-progress progress-color="#e74c3c" progress-amount="35"></my-circle-progress>
+      </div>
+      <div style="width: 100px; height: 100px; margin: 20px;">
+        <my-circle-progress progress-color="#f1c40f" progress-amount="54"></my-circle-progress>
+      </div>
+
+      <div style="width: 220px; height: 220px; margin: 20px;">
+        <my-circle-progress progress-color="#2ecc71" progress-amount="100"></my-circle-progress>
+      </div>
+    </div>
+  </body>
+</html>
